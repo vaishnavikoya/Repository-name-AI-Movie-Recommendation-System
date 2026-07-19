@@ -1,2 +1,51 @@
-# Repository-name-AI-Movie-Recommendation-System
-A content-based movie recommendation system using TF-IDF and cosine similarity.
+# AI Movie Recommendation System
+
+## Project Overview
+
+The AI Movie Recommendation System is a content-based recommendation application developed using Python and Google Colab. The purpose of this project is to recommend movies that are similar to a movie selected by the user.
+
+The system analyzes movie genres and descriptions, converts the text into numerical values, calculates similarities between movies, and displays ranked recommendations through an interactive interface.
+
+## AI Technique Used
+
+This project uses a content-based filtering approach.
+
+The main artificial intelligence and machine learning techniques used are:
+
+- TF-IDF vectorization
+- Cosine similarity
+- Natural language processing
+- Content-based recommendation filtering
+
+TF-IDF converts movie genres and descriptions into numerical feature vectors. Cosine similarity compares these vectors and determines how closely related one movie is to another. Movies with higher similarity scores are displayed as recommendations.
+
+## Features
+
+- Interactive movie selection dropdown
+- Adjustable number of recommendations
+- Ranked movie recommendations
+- Movie title, genre, year, rating, and similarity score
+- Support for multiple movie categories
+- Dataset validation
+- Interactive Google Colab interface
+- Recommendation results generated using AI techniques
+
+## Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Scikit-learn
+- IPyWidgets
+- GitHub
+
+## Installation Requirements
+
+The following Python libraries are required:
+
+```text
+pandas
+numpy
+scikit-learn
+ipywidgets
